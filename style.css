@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color:beige;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+
+    background-image: linear-gradient(rgba(0, 0, 0 , 0.5), rgba(0, 0, 0, 0.5)), url(https://images.wallpaperscraft.com/image/single/volleyball_balls_volleyball_sports_113210_1600x900.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero-inner h1 {
+    font-size: 5em;
+    
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.hero .btn {
+    display: block;
+    width: 200px;
+
+    border: 2px solid white;
+    border-radius: 20px;
+
+    margin-top: 5px;
+    padding: 1em;
+    margin-right: auto;
+    margin-left: auto;
+
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+
+    background-color: rgba(147, 112, 219, 0.8);
+}
+
+.about-me #intro {
+    width: 300px;
+    margin-left: 30px;
+
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: .5em;
+}
