@@ -28,7 +28,7 @@ body {
     margin-bottom: 0.5em;
 }
 
-.hero .btn {
+.hero #btn {
     display: block;
     width: 200px;
 
@@ -47,7 +47,7 @@ body {
     background-color: rgba(147, 112, 219, 0.8);
 }
 
-.about-me #intro {
+.about-me #intro-content {
     width: 300px;
     margin-left: 30px;
 
@@ -55,3 +55,36 @@ body {
     border-radius: 10px;
     padding: .5em;
 }
+
+.about-me #intro {
+    margin-left: 150px;
+}
+
+.about-me #background {
+    margin-left: 625px;
+    margin-top: -240px;
+}
+
+.about-me #background-content {
+    width: 300px;
+    margin-left: 535px;
+
+    border: 2px solid grey;
+    padding: .5em;
+    border-radius: 10px;
+}
+
+.about-me #me-and-volleyball {
+    margin-left: 100px;
+    margin-top: -200px;
+}
+
+.about-me #mav-content {
+    width: 300px;
+    margin-left: 30px;
+
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: .5em;
+}
+
